@@ -83,6 +83,28 @@ Models were evaluated using accuracy, precision, recall, and F1-score. The perfo
 | GaussianNB               | 58.30%   | 58.28%   | 58.34%    | 58.30% |
 | XGBClassifier            | 90.62%   | 90.60%   | 90.70%    | 90.62% |
 
+# Usage
+
+## Load the Dataset
+
+Load the dataset using `pd.read_csv()`.
+
+## Data Preprocessing
+
+Handle missing values and balance the dataset.
+
+## Train-Test Split
+
+Split the data into training and testing sets.
+
+## Model Training
+
+Train and evaluate various classification models.
+
+## Evaluate Performance
+
+Check the performance of each model using metrics.
+
 ## Requirements
 
 To run the project, you need the following Python libraries:
