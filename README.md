@@ -86,26 +86,21 @@ Models were evaluated using accuracy, precision, recall, and F1-score. The perfo
 ## Usage
 
 - **Load the Dataset**
-
 Load the dataset using `pd.read_csv()`.
 
 - **Data Preprocessing**
-
 Handle missing values and balance the dataset.
 
 - **Train-Test Split**
-
 Split the data into training and testing sets.
 
 - **Model Training**
-
 Train and evaluate various classification models.
 
 - **Evaluate Performance**
-
 Check the performance of each model using metrics.
 
-- **Requirements**
+## Requirements
 
 To run the project, you need the following Python libraries:
 
