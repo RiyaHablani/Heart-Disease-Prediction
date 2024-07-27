@@ -29,21 +29,33 @@ The dataset used in this project is the **Framingham Heart Study dataset**. It c
 
 We implemented several machine learning models for predicting coronary heart disease, including:
 
-- **Logistic Regression**
-- **Decision Trees**
-- **Random Forest**
-- **Support Vector Machines (SVM)**
-- **Gradient Boosting Machines**
+- **Logistic Regression**: A regression model used for binary classification that estimates the probability of a binary outcome based on one or more predictor variables.
+
+- **Decision Tree Classifier**: A model that makes decisions based on a tree-like structure of rules. It splits the data into subsets based on feature values.
+
+- **Random Forest Classifier**: An ensemble learning method that combines multiple decision trees to improve classification accuracy and control overfitting.
+
+- **Support Vector Classifier (SVC)**: A model that finds the hyperplane that best separates classes in the feature space. It is effective for high-dimensional spaces and cases where the number of dimensions exceeds the number of samples.
+
+- **Gradient Boosting Classifier**: An ensemble technique that builds models sequentially, with each model correcting the errors of its predecessor, thereby improving performance and reducing bias.
+
+- **AdaBoost Classifier**: An ensemble method that combines multiple weak classifiers to create a strong classifier. It adjusts the weights of misclassified samples to improve accuracy.
+
+- **K-Nearest Neighbors Classifier (KNN)**: A non-parametric method that classifies samples based on the majority class of their nearest neighbors in the feature space.
+
+- **Gaussian Naive Bayes (GaussianNB)**: A probabilistic model based on Bayes' theorem with the assumption of independence among predictors. It is suited for continuous data that follows a Gaussian distribution.
+
+- **XGBoost Classifier**: An advanced gradient boosting technique known for its high performance and efficiency. It includes regularization to prevent overfitting and improve model generalization.
 
 ### Evaluation
 
 The models were evaluated using metrics such as:
 
-- **Accuracy**
-- **Precision**
-- **Recall**
-- **F1-Score**
-- **ROC-AUC**
+- **Accuracy**: The ratio of correctly predicted instances to the total instances.
+- **Precision**: The ratio of correctly predicted positive observations to the total predicted positives.
+- **Recall**: The ratio of correctly predicted positive observations to all observations in the actual class.
+- **F1-Score**: The harmonic mean of precision and recall, providing a single metric for model performance.
+- **ROC-AUC**: The Area Under the Receiver Operating Characteristic Curve, representing the model's ability to distinguish between classes.
 
 ## Requirements
 
@@ -54,6 +66,7 @@ To run the project, you need the following Python libraries:
 - **scikit-learn**
 - **matplotlib**
 - **seaborn**
+- **xgboost** (for XGBoost Classifier)
 
 ## How to Run
 
