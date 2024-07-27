@@ -2,6 +2,10 @@
 
 This project involves analyzing and predicting the risk of heart disease using the Framingham Heart Study dataset. Various machine learning models have been implemented to predict the likelihood of developing coronary heart disease within ten years based on a range of medical and demographic features.
 
+**Live Preview**
+
+https://github.com/user-attachments/assets/01c90ae5-ad0d-4818-ae5c-74d4b1591771
+
 ## Dataset
 
 The dataset used in this project is the **Framingham Heart Study dataset**. It contains various health-related metrics and features, including:
