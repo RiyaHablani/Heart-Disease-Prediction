@@ -67,7 +67,7 @@ The models were evaluated using metrics such as:
 - **F1-Score**: The harmonic mean of precision and recall, providing a single metric for model performance.
 - **ROC-AUC**: The Area Under the Receiver Operating Characteristic Curve, representing the model's ability to distinguish between classes.
 
-# Performance Metrics
+## Performance Metrics
 
 Models were evaluated using accuracy, precision, recall, and F1-score. The performance of each model is summarized below:
 
@@ -83,29 +83,29 @@ Models were evaluated using accuracy, precision, recall, and F1-score. The perfo
 | GaussianNB               | 58.30%   | 58.28%   | 58.34%    | 58.30% |
 | XGBClassifier            | 90.62%   | 90.60%   | 90.70%    | 90.62% |
 
-# Usage
+## Usage
 
-## Load the Dataset
+- **Load the Dataset**
 
 Load the dataset using `pd.read_csv()`.
 
-## Data Preprocessing
+- **Data Preprocessing**
 
 Handle missing values and balance the dataset.
 
-## Train-Test Split
+- **Train-Test Split**
 
 Split the data into training and testing sets.
 
-## Model Training
+- **Model Training**
 
 Train and evaluate various classification models.
 
-## Evaluate Performance
+- **Evaluate Performance**
 
 Check the performance of each model using metrics.
 
-## Requirements
+- **Requirements**
 
 To run the project, you need the following Python libraries:
 
