@@ -111,6 +111,14 @@ To run the project, you need the following Python libraries:
 - **seaborn**
 - **xgboost** (for XGBoost Classifier)
 
+# Installation
+
+You can install the required libraries using pip:
+
+```bash
+pip install pandas numpy scikit-learn xgboost
+```
+
 ## How to Run
 
 1. Clone the repository:
