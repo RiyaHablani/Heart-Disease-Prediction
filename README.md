@@ -136,6 +136,11 @@ To run the project, you need the following Python libraries:
     ```bash
     python app.py
     ```
+## Acknowledgments
+
+The dataset used in this project is from Kaggle.
+
+Various machine learning algorithms were implemented using **Scikit-learn** and **XGBoost** libraries.
 
 ## Results
 
