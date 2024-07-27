@@ -27,11 +27,11 @@ The dataset used in this project is the **Framingham Heart Study dataset**. It c
 
 ### Data Preprocessing
 
-#### Handling Missing Values
+- **Handling Missing Values**
 
 Missing values were imputed using the most frequent value for binary features and median values for numeric features.
 
-#### Balancing the Dataset
+- **Balancing the Dataset**
 
 The dataset was balanced using upsampling to handle class imbalance.
 
