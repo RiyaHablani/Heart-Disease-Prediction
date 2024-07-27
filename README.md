@@ -144,8 +144,8 @@ Various machine learning algorithms were implemented using **Scikit-learn** and 
 
 ## Results
 
-The project successfully predicts the likelihood of developing coronary heart disease with a high level of accuracy. The best performing model was the **Random Forest model**, achieving an accuracy of **85%**.
+The project successfully predicts the likelihood of developing coronary heart disease with a high level of accuracy. The best performing model was the Random Forest model, achieving an accuracy of **97.7%**.
 
 ## Contributing
 
-Feel free to contribute to the project by submitting issues or pull requests. Please ensure your code follows the existing style and includes tests where applicable.
+Feel free to contribute to the project by submitting issues or pull requests. 
