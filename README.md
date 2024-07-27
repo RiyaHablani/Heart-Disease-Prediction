@@ -25,6 +25,16 @@ The dataset used in this project is the **Framingham Heart Study dataset**. It c
 
 ## Implementation
 
+### Data Preprocessing
+
+#### Handling Missing Values
+
+Missing values were imputed using the most frequent value for binary features and median values for numeric features.
+
+#### Balancing the Dataset
+
+The dataset was balanced using upsampling to handle class imbalance.
+
 ### Models
 
 We implemented several machine learning models for predicting coronary heart disease, including:
