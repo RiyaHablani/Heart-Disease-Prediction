@@ -4,7 +4,7 @@ This project involves analyzing and predicting the risk of heart disease using t
 
 **Live Preview**
 
-https://github.com/user-attachments/assets/01c90ae5-ad0d-4818-ae5c-74d4b1591771
+https://github.com/user-attachments/assets/fa81b4bf-3a46-4dfc-8d1c-8b67742c7a79
 
 ## Dataset
 
