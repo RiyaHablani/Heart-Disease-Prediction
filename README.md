@@ -116,7 +116,7 @@ To run the project, you need the following Python libraries:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/heart-disease-prediction.git
+    git clone https://github.com/RiyaHablani/Heart-Disease-Prediction/tree/master
     ```
 
 2. Navigate to the project directory:
