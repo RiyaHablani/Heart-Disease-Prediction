@@ -67,6 +67,22 @@ The models were evaluated using metrics such as:
 - **F1-Score**: The harmonic mean of precision and recall, providing a single metric for model performance.
 - **ROC-AUC**: The Area Under the Receiver Operating Characteristic Curve, representing the model's ability to distinguish between classes.
 
+# Performance Metrics
+
+Models were evaluated using accuracy, precision, recall, and F1-score. The performance of each model is summarized below:
+
+| Model                    | Accuracy | F1-Score | Precision | Recall |
+|--------------------------|----------|----------|-----------|--------|
+| RandomForestClassifier   | 97.57%   | 97.57%   | 97.63%    | 97.57% |
+| AdaBoostClassifier       | 66.02%   | 66.02%   | 66.04%    | 66.02% |
+| GradientBoostingClassifier | 71.99%   | 71.97%   | 72.20%    | 71.99% |
+| LogisticRegression       | 65.88%   | 65.87%   | 65.85%    | 65.88% |
+| SVC                      | 68.31%   | 68.31%   | 68.36%    | 68.31% |
+| KNeighborsClassifier     | 78.74%   | 78.72%   | 78.77%    | 78.74% |
+| DecisionTreeClassifier   | 91.59%   | 91.59%   | 91.67%    | 91.59% |
+| GaussianNB               | 58.30%   | 58.28%   | 58.34%    | 58.30% |
+| XGBClassifier            | 90.62%   | 90.60%   | 90.70%    | 90.62% |
+
 ## Requirements
 
 To run the project, you need the following Python libraries:
